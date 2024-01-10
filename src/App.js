@@ -4,6 +4,7 @@ import Nav from './components/Nav';
 import Contact from './components/Contact';
 import About from './components/About';
 import Main from './components/Main';
+import Product from './components/Product';
 import './App.css';
 
 
@@ -14,6 +15,7 @@ function App() {
         <Route path="/contact" component={Contact} />
         <Route path="/about" component={About} />
         <Route path="/Nav" component={Nav} />
+        <Route path="/Product" component={Product} />
         <Route path="/" component={Main} />
       </Switch>
     </Router>

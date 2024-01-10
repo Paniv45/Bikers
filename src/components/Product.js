@@ -2,15 +2,14 @@ import React from 'react';
 import '../App.css';
 import Nav from './Nav';
 
-
-const Contact = () => {
+const Product = () => {
     return (
         <>
            <Nav/>
-            <p>This is the Contact page</p>
+            <p>This is the p page</p>
             
         </>
     );
 };
 
-export default Contact;
+export default Product;
