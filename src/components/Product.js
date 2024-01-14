@@ -2,8 +2,7 @@ import React from 'react';
 import Nav from './Nav';
 import './Product.css';
 import Footer from './Footer';
-
-
+import { Link } from 'react-router-dom';
 
 const Product = () => {
   return (
@@ -30,7 +29,10 @@ const Product = () => {
           <h2>BMW</h2>
           <p>30000</p>
           <p>*including all taxes.</p>
-          <button className="Buy Now">Buy Now</button>
+          <Link to="/buy">
+            <button>Buy Now</button>
+          </Link>
+
         </div>
         <div className="product">
           <img
@@ -43,7 +45,9 @@ const Product = () => {
           <h2>Hero</h2>
           <p>25,000/-</p>
           <p>*including all taxes.</p>
-          <button className="add-to-cart">Buy Now</button>
+          <Link to="/buy">
+        <button>Buy Now</button>
+      </Link>
         </div>
         <div className="product">
           <img
@@ -56,7 +60,9 @@ const Product = () => {
           <h2>Foldable Bike</h2>
           <p>45,000/-</p>
           <p>*including all taxes.</p>
-          <button className="add-to-cart">Buy Now</button>
+          <Link to="/buy">
+        <button>Buy Now</button>
+      </Link>
         </div>
         <div className="product">
           <img
@@ -69,7 +75,9 @@ const Product = () => {
           <h2>FlipToy</h2>
           <p>12,000</p>
           <p>*including all taxes.</p>
-          <button className="add-to-cart">Buy Now</button>
+          <Link to="/buy">
+        <button>Buy Now</button>
+      </Link>
         </div>
         <div className="product">
           <img
@@ -82,7 +90,9 @@ const Product = () => {
           <h2>MTV Bikes</h2>
           <p>25,000</p>
           <p>*including all taxes.</p>
-          <button className="add-to-cart">Buy Now</button>
+          <Link to="/buy">
+        <button>Buy Now</button>
+      </Link>
         </div>
         <div className="product">
           <img
@@ -95,7 +105,9 @@ const Product = () => {
           <h2>Decathlon</h2>
           <p>33,000</p>
           <p>*including all taxes.</p>
-          <button className="add-to-cart">Buy Now</button>
+          <Link to="/buy">
+        <button>Buy Now</button>
+      </Link>
         </div>
         <div className="product">
           <img
@@ -108,7 +120,9 @@ const Product = () => {
           <h2>Billion</h2>
           <p>24,000</p>
           <p>*including all taxes.</p>
-          <button className="add-to-cart">Buy Now</button>
+          <Link to="/buy">
+        <button>Buy Now</button>
+      </Link>
         </div>
 
         <div className="product">
@@ -122,7 +136,9 @@ const Product = () => {
           <h2>Speed</h2>
           <p>15,000</p>
           <p>*including all taxes.</p>
-          <button className="add-to-cart">Buy Now</button>
+          <Link to="/buy">
+        <button>Buy Now</button>
+      </Link>
         </div>
 
         <div className="product">
@@ -136,7 +152,9 @@ const Product = () => {
           <h2>Atlas C-20</h2>
           <p>22,000</p>
           <p>*including all taxes.</p>
-          <button className="add-to-cart">Buy Now</button>
+          <Link to="/buy">
+        <button>Buy Now</button>
+      </Link>
         </div>
 
         <div className="product">
@@ -150,7 +168,9 @@ const Product = () => {
           <h2>MTB</h2>
           <p>19,000</p>
           <p>*including all taxes.</p>
-          <button className="add-to-cart">Buy Now</button>
+          <Link to="/buy">
+        <button>Buy Now</button>
+      </Link>
         </div>
 
         <div className="product">
@@ -164,7 +184,9 @@ const Product = () => {
           <h2>Rider</h2>
           <p>25,000</p>
           <p>*including all taxes.</p>
-          <button className="add-to-cart">Buy Now</button>
+          <Link to="/buy">
+        <button>Buy Now</button>
+      </Link>
         </div>
 
         <div className="product">
@@ -178,7 +200,9 @@ const Product = () => {
           <h2>Jaguar Flat Tyre</h2>
           <p>30,000</p>
           <p>*including all taxes.</p>
-          <button className="add-to-cart">Buy Now</button>
+          <Link to="/buy">
+        <button>Buy Now</button>
+      </Link>
         </div>
         <img src='https://image.made-in-china.com/44f3j00QzqlYUOKgVko/2022-New-Arrival-Design-21-Speed-Folding-Road-Bike-Bicycle.webp' alt=''></img>
 
@@ -219,7 +243,9 @@ const Product = () => {
           <h2>Hero</h2>
           <p>25,000/-</p>
           <p>*including all taxes.</p>
-          <button className="add-to-cart">Buy Now</button>
+          <Link to="/buy">
+        <button>Buy Now</button>
+      </Link>
         </div>
         <div className="product">
           <img
@@ -232,7 +258,9 @@ const Product = () => {
           <h2>Foldable Bike</h2>
           <p>45,000/-</p>
           <p>*including all taxes.</p>
-          <button className="add-to-cart">Buy Now</button>
+          <Link to="/buy">
+        <button>Buy Now</button>
+      </Link>
         </div>
         <div className="product">
           <img
@@ -245,7 +273,9 @@ const Product = () => {
           <h2>FlipToy</h2>
           <p>12,000</p>
           <p>*including all taxes.</p>
-          <button className="add-to-cart">Buy Now</button>
+          <Link to="/buy">
+        <button>Buy Now</button>
+      </Link>
         </div>
         <div className="product">
           <img
@@ -258,7 +288,9 @@ const Product = () => {
           <h2>MTV Bikes</h2>
           <p>25,000</p>
           <p>*including all taxes.</p>
-          <button className="add-to-cart">Buy Now</button>
+          <Link to="/buy">
+        <button>Buy Now</button>
+      </Link>
         </div>
         <div className="product">
           <img
@@ -271,7 +303,9 @@ const Product = () => {
           <h2>Decathlon</h2>
           <p>33,000</p>
           <p>*including all taxes.</p>
-          <button className="add-to-cart">Buy Now</button>
+          <Link to="/buy">
+        <button>Buy Now</button>
+      </Link>
         </div>
         <div className="product">
           <img
@@ -284,7 +318,9 @@ const Product = () => {
           <h2>Billion</h2>
           <p>24,000</p>
           <p>*including all taxes.</p>
-          <button className="add-to-cart">Buy Now</button>
+          <Link to="/buy">
+        <button>Buy Now</button>
+      </Link>
         </div>
 
         <div className="product">
@@ -298,7 +334,9 @@ const Product = () => {
           <h2>Speed</h2>
           <p>15,000</p>
           <p>*including all taxes.</p>
-          <button className="add-to-cart">Buy Now</button>
+          <Link to="/buy">
+        <button>Buy Now</button>
+      </Link>
         </div>
 
         <div className="product">
@@ -312,7 +350,9 @@ const Product = () => {
           <h2>Atlas C-20</h2>
           <p>22,000</p>
           <p>*including all taxes.</p>
-          <button className="add-to-cart">Buy Now</button>
+          <Link to="/buy">
+        <button>Buy Now</button>
+      </Link>
         </div>
 
         <div className="product">
@@ -326,7 +366,9 @@ const Product = () => {
           <h2>MTB</h2>
           <p>19,000</p>
           <p>*including all taxes.</p>
-          <button className="add-to-cart">Buy Now</button>
+          <Link to="/buy">
+        <button>Buy Now</button>
+      </Link>
         </div>
 
         <div className="product">
@@ -340,7 +382,9 @@ const Product = () => {
           <h2>Rider</h2>
           <p>25,000</p>
           <p>*including all taxes.</p>
-          <button className="add-to-cart">Buy Now</button>
+          <Link to="/buy">
+        <button>Buy Now</button>
+      </Link>
         </div>
 
         <div className="product">
@@ -354,7 +398,9 @@ const Product = () => {
           <h2>Jaguar Flat Tyre</h2>
           <p>30,000</p>
           <p>*including all taxes.</p>
-          <button className="add-to-cart">Buy Now</button>
+          <Link to="/buy">
+        <button>Buy Now</button>
+      </Link>
         </div>
 
       </div>
@@ -373,14 +419,14 @@ const Product = () => {
       <div className="product-list">
         <div className="product">
           <img
-            src="https://5.imimg.com/data5/ANDROID/Default/2021/8/RL/DG/ZE/135587886/screenshot-20210816-111333-jpg-500x500.jpg"
+            src="https://m.media-amazon.com/images/I/71luc1VYt9L._AC_UF894,1000_QL80_.jpg"
             width="200"
             height="200"
             alt="Product"
             className="product-image"
           />
-          <h2>Atlas</h2>
-          <p>30000</p>
+          <h2>MoterRoad</h2>
+          <p>36000</p>
           <p>*including all taxes.</p>
           <button className="Buy Now">Buy Now</button>
         </div>
@@ -395,7 +441,9 @@ const Product = () => {
           <h2>Hero</h2>
           <p>25,000/-</p>
           <p>*including all taxes.</p>
-          <button className="add-to-cart">Buy Now</button>
+          <Link to="/buy">
+        <button>Buy Now</button>
+      </Link>
         </div>
         <div className="product">
           <img
@@ -408,7 +456,9 @@ const Product = () => {
           <h2>Foldable Bike</h2>
           <p>45,000/-</p>
           <p>*including all taxes.</p>
-          <button className="add-to-cart">Buy Now</button>
+          <Link to="/buy">
+        <button>Buy Now</button>
+      </Link>
         </div>
         <div className="product">
           <img
@@ -421,7 +471,9 @@ const Product = () => {
           <h2>FlipToy</h2>
           <p>12,000</p>
           <p>*including all taxes.</p>
-          <button className="add-to-cart">Buy Now</button>
+          <Link to="/buy">
+        <button>Buy Now</button>
+      </Link>
         </div>
         <div className="product">
           <img
@@ -434,7 +486,9 @@ const Product = () => {
           <h2>MTV Bikes</h2>
           <p>25,000</p>
           <p>*including all taxes.</p>
-          <button className="add-to-cart">Buy Now</button>
+          <Link to="/buy">
+        <button>Buy Now</button>
+      </Link>
         </div>
         <div className="product">
           <img
@@ -447,7 +501,9 @@ const Product = () => {
           <h2>Decathlon</h2>
           <p>33,000</p>
           <p>*including all taxes.</p>
-          <button className="add-to-cart">Buy Now</button>
+          <Link to="/buy">
+        <button>Buy Now</button>
+      </Link>
         </div>
         <div className="product">
           <img
@@ -460,7 +516,9 @@ const Product = () => {
           <h2>Billion</h2>
           <p>24,000</p>
           <p>*including all taxes.</p>
-          <button className="add-to-cart">Buy Now</button>
+          <Link to="/buy">
+        <button>Buy Now</button>
+      </Link>
         </div>
 
         <div className="product">
@@ -474,7 +532,9 @@ const Product = () => {
           <h2>Speed</h2>
           <p>15,000</p>
           <p>*including all taxes.</p>
-          <button className="add-to-cart">Buy Now</button>
+          <Link to="/buy">
+        <button>Buy Now</button>
+      </Link>
         </div>
 
         <div className="product">
@@ -488,7 +548,9 @@ const Product = () => {
           <h2>Atlas C-20</h2>
           <p>22,000</p>
           <p>*including all taxes.</p>
-          <button className="add-to-cart">Buy Now</button>
+          <Link to="/buy">
+        <button>Buy Now</button>
+      </Link>
         </div>
 
         <div className="product">
@@ -502,7 +564,9 @@ const Product = () => {
           <h2>MTB</h2>
           <p>19,000</p>
           <p>*including all taxes.</p>
-          <button className="add-to-cart">Buy Now</button>
+          <Link to="/buy">
+        <button>Buy Now</button>
+      </Link>
         </div>
 
         <div className="product">
@@ -516,7 +580,9 @@ const Product = () => {
           <h2>Rider</h2>
           <p>25,000</p>
           <p>*including all taxes.</p>
-          <button className="add-to-cart">Buy Now</button>
+          <Link to="/buy">
+        <button>Buy Now</button>
+      </Link>
         </div>
 
         <div className="product">
@@ -530,7 +596,9 @@ const Product = () => {
           <h4>Jaguar</h4>
           <p>30,000</p>
           <p>*including all taxes.</p>
-          <button className="add-to-cart">Buy Now</button>
+          <Link to="/buy">
+        <button>Buy Now</button>
+      </Link>
         </div>
 
         <img src='https://www.herolectro.com/on/demandware.static/-/Sites-heroLectro-Library/default/dw08b75608/Homepage_herolectro.com/1920x1024-new-10oct.jpg'alt=''></img>      

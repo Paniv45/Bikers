@@ -10,6 +10,7 @@ import Footer from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Rating from './components/Rating';
+import Buy from './components/Buy';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Route path="/Product" component={Product} />
         <Route path="/Footer" component={Footer} />
         <Route path="/Rating" component={Rating} />
+        <Route path="/Buy" component={Buy} />
         <Route path="/" component={Main} />
       </Switch>
     </Router>
