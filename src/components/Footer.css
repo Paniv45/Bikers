@@ -1,0 +1,39 @@
+/* App.css */
+
+/* Style for the center class */
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+/* Style for the footer container */
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #343a40;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+/* Style for the social media icons */
+.footer-icon {
+  max-width: 40px;
+  max-height: 40px;
+  margin: 5%;
+  display: inline-block;
+}
+
+/* Adjustments to the text-center class */
+.text-center {
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+section.mb-4{
+  text-align: center;
+}
