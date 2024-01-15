@@ -1,5 +1,5 @@
 {
-  "homepage":"https://github.com/Paniv45/Riders.git",
+  "homepage": "https://Paniv45.github.io/Riders",
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
@@ -17,13 +17,13 @@
   },
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
+    
   },
-  
   "eslintConfig": {
     "extends": [
       "react-app",
