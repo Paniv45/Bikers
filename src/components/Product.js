@@ -27,11 +27,11 @@ const Product = () => {
             className="product-image"
           />
           <h2>BMW</h2>
-          <p>30000</p>
+          <p>₹ 30000</p>
           <p>*including all taxes.</p>
           <Link to="/buy">
             <button>Buy Now</button>
-          </Link>
+          </Link> 
 
         </div>
         <div className="product">
@@ -43,7 +43,7 @@ const Product = () => {
             className="product-image"
           />
           <h2>Hero</h2>
-          <p>25,000/-</p>
+          <p> ₹ 25,000/-</p>
           <p>*including all taxes.</p>
           <Link to="/buy">
         <button>Buy Now</button>
@@ -58,7 +58,7 @@ const Product = () => {
             className="product-image"
           />
           <h2>Foldable Bike</h2>
-          <p>45,000/-</p>
+          <p> ₹ 45,000/-</p>
           <p>*including all taxes.</p>
           <Link to="/buy">
         <button>Buy Now</button>
@@ -73,7 +73,7 @@ const Product = () => {
             className="product-image"
           />
           <h2>FlipToy</h2>
-          <p>12,000</p>
+          <p> ₹ 12,000</p>
           <p>*including all taxes.</p>
           <Link to="/buy">
         <button>Buy Now</button>
@@ -88,7 +88,7 @@ const Product = () => {
             className="product-image"
           />
           <h2>MTV Bikes</h2>
-          <p>25,000</p>
+          <p> ₹ 25,000</p>
           <p>*including all taxes.</p>
           <Link to="/buy">
         <button>Buy Now</button>
@@ -103,7 +103,7 @@ const Product = () => {
             className="product-image"
           />
           <h2>Decathlon</h2>
-          <p>33,000</p>
+          <p> ₹ 33,000</p>
           <p>*including all taxes.</p>
           <Link to="/buy">
         <button>Buy Now</button>
@@ -118,7 +118,7 @@ const Product = () => {
             className="product-image"
           />
           <h2>Billion</h2>
-          <p>24,000</p>
+          <p> ₹ 24,000</p>
           <p>*including all taxes.</p>
           <Link to="/buy">
         <button>Buy Now</button>
@@ -134,12 +134,12 @@ const Product = () => {
             className="product-image"
           />
           <h2>Speed</h2>
-          <p>15,000</p>
+          <p>₹ 15,000</p>
           <p>*including all taxes.</p>
           <Link to="/buy">
         <button>Buy Now</button>
       </Link>
-        </div>
+        </div> 
 
         <div className="product">
           <img
@@ -150,7 +150,7 @@ const Product = () => {
             className="product-image"
           />
           <h2>Atlas C-20</h2>
-          <p>22,000</p>
+          <p> ₹ 22,000</p>
           <p>*including all taxes.</p>
           <Link to="/buy">
         <button>Buy Now</button>
@@ -166,7 +166,7 @@ const Product = () => {
             className="product-image"
           />
           <h2>MTB</h2>
-          <p>19,000</p>
+          <p> ₹ 19,000</p>
           <p>*including all taxes.</p>
           <Link to="/buy">
         <button>Buy Now</button>
@@ -182,7 +182,7 @@ const Product = () => {
             className="product-image"
           />
           <h2>Rider</h2>
-          <p>25,000</p>
+          <p> ₹ 25,000</p>
           <p>*including all taxes.</p>
           <Link to="/buy">
         <button>Buy Now</button>
@@ -198,7 +198,7 @@ const Product = () => {
             className="product-image"
           />
           <h2>Jaguar Flat Tyre</h2>
-          <p>30,000</p>
+          <p> ₹ 30,000</p>
           <p>*including all taxes.</p>
           <Link to="/buy">
         <button>Buy Now</button>
@@ -228,7 +228,7 @@ const Product = () => {
             className="product-image"
           />
           <h2>Atlas</h2>
-          <p>30000</p>
+          <p> ₹ 30000</p>
           <p>*including all taxes.</p>
           <button className="Buy Now">Buy Now</button>
         </div>
@@ -241,7 +241,7 @@ const Product = () => {
             className="product-image"
           />
           <h2>Hero</h2>
-          <p>25,000/-</p>
+          <p> ₹ 25,000/-</p>
           <p>*including all taxes.</p>
           <Link to="/buy">
         <button>Buy Now</button>
@@ -256,7 +256,7 @@ const Product = () => {
             className="product-image"
           />
           <h2>Foldable Bike</h2>
-          <p>45,000/-</p>
+          <p> ₹ 45,000/-</p>
           <p>*including all taxes.</p>
           <Link to="/buy">
         <button>Buy Now</button>
@@ -271,7 +271,7 @@ const Product = () => {
             className="product-image"
           />
           <h2>FlipToy</h2>
-          <p>12,000</p>
+          <p> ₹ 12,000</p>
           <p>*including all taxes.</p>
           <Link to="/buy">
         <button>Buy Now</button>
@@ -286,7 +286,7 @@ const Product = () => {
             className="product-image"
           />
           <h2>MTV Bikes</h2>
-          <p>25,000</p>
+          <p> ₹ 25,000</p>
           <p>*including all taxes.</p>
           <Link to="/buy">
         <button>Buy Now</button>
@@ -301,7 +301,7 @@ const Product = () => {
             className="product-image"
           />
           <h2>Decathlon</h2>
-          <p>33,000</p>
+          <p> ₹ 33,000</p>
           <p>*including all taxes.</p>
           <Link to="/buy">
         <button>Buy Now</button>
@@ -316,7 +316,7 @@ const Product = () => {
             className="product-image"
           />
           <h2>Billion</h2>
-          <p>24,000</p>
+          <p> ₹ 24,000</p>
           <p>*including all taxes.</p>
           <Link to="/buy">
         <button>Buy Now</button>
@@ -332,7 +332,7 @@ const Product = () => {
             className="product-image"
           />
           <h2>Speed</h2>
-          <p>15,000</p>
+          <p> ₹ 15,000</p>
           <p>*including all taxes.</p>
           <Link to="/buy">
         <button>Buy Now</button>
@@ -348,7 +348,7 @@ const Product = () => {
             className="product-image"
           />
           <h2>Atlas C-20</h2>
-          <p>22,000</p>
+          <p> ₹ 22,000</p>
           <p>*including all taxes.</p>
           <Link to="/buy">
         <button>Buy Now</button>
@@ -364,7 +364,7 @@ const Product = () => {
             className="product-image"
           />
           <h2>MTB</h2>
-          <p>19,000</p>
+          <p> ₹ 19,000</p>
           <p>*including all taxes.</p>
           <Link to="/buy">
         <button>Buy Now</button>
@@ -380,7 +380,7 @@ const Product = () => {
             className="product-image"
           />
           <h2>Rider</h2>
-          <p>25,000</p>
+          <p> ₹ 25,000</p>
           <p>*including all taxes.</p>
           <Link to="/buy">
         <button>Buy Now</button>
@@ -396,7 +396,7 @@ const Product = () => {
             className="product-image"
           />
           <h2>Jaguar Flat Tyre</h2>
-          <p>30,000</p>
+          <p> ₹ 30,000</p>
           <p>*including all taxes.</p>
           <Link to="/buy">
         <button>Buy Now</button>
@@ -426,7 +426,7 @@ const Product = () => {
             className="product-image"
           />
           <h2>MoterRoad</h2>
-          <p>36000</p>
+          <p> ₹ 36000</p>
           <p>*including all taxes.</p>
           <button className="Buy Now">Buy Now</button>
         </div>
@@ -439,7 +439,7 @@ const Product = () => {
             className="product-image"
           />
           <h2>Hero</h2>
-          <p>25,000/-</p>
+          <p> ₹ 25,000/-</p>
           <p>*including all taxes.</p>
           <Link to="/buy">
         <button>Buy Now</button>
@@ -454,7 +454,7 @@ const Product = () => {
             className="product-image"
           />
           <h2>Foldable Bike</h2>
-          <p>45,000/-</p>
+          <p> ₹ 45,000/-</p>
           <p>*including all taxes.</p>
           <Link to="/buy">
         <button>Buy Now</button>
@@ -469,7 +469,7 @@ const Product = () => {
             className="product-image"
           />
           <h2>FlipToy</h2>
-          <p>12,000</p>
+          <p> ₹ 12,000</p>
           <p>*including all taxes.</p>
           <Link to="/buy">
         <button>Buy Now</button>
@@ -484,7 +484,7 @@ const Product = () => {
             className="product-image"
           />
           <h2>MTV Bikes</h2>
-          <p>25,000</p>
+          <p> ₹ 25,000</p>
           <p>*including all taxes.</p>
           <Link to="/buy">
         <button>Buy Now</button>
@@ -499,7 +499,7 @@ const Product = () => {
             className="product-image"
           />
           <h2>Decathlon</h2>
-          <p>33,000</p>
+          <p> ₹ 33,000</p>
           <p>*including all taxes.</p>
           <Link to="/buy">
         <button>Buy Now</button>
@@ -514,7 +514,7 @@ const Product = () => {
             className="product-image"
           />
           <h2>Billion</h2>
-          <p>24,000</p>
+          <p> ₹ 24,000</p>
           <p>*including all taxes.</p>
           <Link to="/buy">
         <button>Buy Now</button>
@@ -530,7 +530,7 @@ const Product = () => {
             className="product-image"
           />
           <h2>Speed</h2>
-          <p>15,000</p>
+          <p> ₹ 15,000</p>
           <p>*including all taxes.</p>
           <Link to="/buy">
         <button>Buy Now</button>
@@ -546,7 +546,7 @@ const Product = () => {
             className="product-image"
           />
           <h2>Atlas C-20</h2>
-          <p>22,000</p>
+          <p> ₹ 22,000</p>
           <p>*including all taxes.</p>
           <Link to="/buy">
         <button>Buy Now</button>
@@ -562,7 +562,7 @@ const Product = () => {
             className="product-image"
           />
           <h2>MTB</h2>
-          <p>19,000</p>
+          <p> ₹ 19,000</p>
           <p>*including all taxes.</p>
           <Link to="/buy">
         <button>Buy Now</button>
@@ -578,7 +578,7 @@ const Product = () => {
             className="product-image"
           />
           <h2>Rider</h2>
-          <p>25,000</p>
+          <p> ₹ 25,000</p>
           <p>*including all taxes.</p>
           <Link to="/buy">
         <button>Buy Now</button>
@@ -594,7 +594,7 @@ const Product = () => {
             className="product-image"
           />
           <h4>Jaguar</h4>
-          <p>30,000</p>
+          <p> ₹ 30,000</p>
           <p>*including all taxes.</p>
           <Link to="/buy">
         <button>Buy Now</button>
