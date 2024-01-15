@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Paniv45/Riders.git/static/css/main.40d1c648.chunk.css",
-    "main.js": "/Paniv45/Riders.git/static/js/main.0866a4a1.chunk.js",
-    "main.js.map": "/Paniv45/Riders.git/static/js/main.0866a4a1.chunk.js.map",
-    "runtime~main.js": "/Paniv45/Riders.git/static/js/runtime~main.99f9cda6.js",
-    "runtime~main.js.map": "/Paniv45/Riders.git/static/js/runtime~main.99f9cda6.js.map",
-    "static/css/2.cc82f8aa.chunk.css": "/Paniv45/Riders.git/static/css/2.cc82f8aa.chunk.css",
-    "static/js/2.5dbb3238.chunk.js": "/Paniv45/Riders.git/static/js/2.5dbb3238.chunk.js",
-    "static/js/2.5dbb3238.chunk.js.map": "/Paniv45/Riders.git/static/js/2.5dbb3238.chunk.js.map",
-    "static/js/3.2ee60a5f.chunk.js": "/Paniv45/Riders.git/static/js/3.2ee60a5f.chunk.js",
-    "static/js/3.2ee60a5f.chunk.js.map": "/Paniv45/Riders.git/static/js/3.2ee60a5f.chunk.js.map",
-    "index.html": "/Paniv45/Riders.git/index.html",
-    "precache-manifest.84cf8a1a813aa6ba5a7ec7a246663157.js": "/Paniv45/Riders.git/precache-manifest.84cf8a1a813aa6ba5a7ec7a246663157.js",
-    "service-worker.js": "/Paniv45/Riders.git/service-worker.js",
-    "static/css/2.cc82f8aa.chunk.css.map": "/Paniv45/Riders.git/static/css/2.cc82f8aa.chunk.css.map",
-    "static/css/main.40d1c648.chunk.css.map": "/Paniv45/Riders.git/static/css/main.40d1c648.chunk.css.map"
+    "main.css": "/Riders/static/css/main.f35231f9.chunk.css",
+    "main.js": "/Riders/static/js/main.80343110.chunk.js",
+    "main.js.map": "/Riders/static/js/main.80343110.chunk.js.map",
+    "runtime~main.js": "/Riders/static/js/runtime~main.47671b8a.js",
+    "runtime~main.js.map": "/Riders/static/js/runtime~main.47671b8a.js.map",
+    "static/css/2.cc82f8aa.chunk.css": "/Riders/static/css/2.cc82f8aa.chunk.css",
+    "static/js/2.5dbb3238.chunk.js": "/Riders/static/js/2.5dbb3238.chunk.js",
+    "static/js/2.5dbb3238.chunk.js.map": "/Riders/static/js/2.5dbb3238.chunk.js.map",
+    "static/js/3.2ee60a5f.chunk.js": "/Riders/static/js/3.2ee60a5f.chunk.js",
+    "static/js/3.2ee60a5f.chunk.js.map": "/Riders/static/js/3.2ee60a5f.chunk.js.map",
+    "index.html": "/Riders/index.html",
+    "precache-manifest.6fd5af3da30b638641f3701c850b8b6d.js": "/Riders/precache-manifest.6fd5af3da30b638641f3701c850b8b6d.js",
+    "service-worker.js": "/Riders/service-worker.js",
+    "static/css/2.cc82f8aa.chunk.css.map": "/Riders/static/css/2.cc82f8aa.chunk.css.map",
+    "static/css/main.f35231f9.chunk.css.map": "/Riders/static/css/main.f35231f9.chunk.css.map"
   }
 }
